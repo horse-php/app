@@ -1,4 +1,4 @@
-app
+Horse Application
 ===
 
-Some boilerplate for your Horse application
+Package `horse/app` provides you boilerplate for a typical Horse application.
