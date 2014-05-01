@@ -4,7 +4,7 @@
     "license": "MIT",
     "keywords": ["horse"],
     "require": {
-        "horse/horse": "dev-master"
+        "horse/horse": "~1"
     },
     "autoload": {
         "psr-4": {

@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c021c9036ae462ebad9bd19f26e452aa",
+    "hash": "01da27f54bc039a7c1dac12f67a0abb4",
     "packages": [
         {
             "name": "horse/horse",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/horse-php/horse.git",
-                "reference": "cc4310eeda5ad9d48733f6c868fd4ac03234d7dc"
+                "reference": "833399efa7b47548ee91013200cada255a202bfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/horse-php/horse/zipball/cc4310eeda5ad9d48733f6c868fd4ac03234d7dc",
-                "reference": "cc4310eeda5ad9d48733f6c868fd4ac03234d7dc",
+                "url": "https://api.github.com/repos/horse-php/horse/zipball/833399efa7b47548ee91013200cada255a202bfd",
+                "reference": "833399efa7b47548ee91013200cada255a202bfd",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "symfony",
                 "wrapper"
             ],
-            "time": "2014-05-01 16:00:06"
+            "time": "2014-05-01 16:18:51"
         },
         {
             "name": "ilya/block",
@@ -161,9 +161,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "horse/horse": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
