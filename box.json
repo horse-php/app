@@ -1,0 +1,23 @@
+{
+    "main": "bin/app",
+    "output": "app.phar",
+    "stub": true,
+    "files": [
+        "LICENSE"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "in": "commands"
+        },
+        {
+            "name": "*.php",
+            "in": "config"
+        },
+        {
+            "name": "*.php",
+            "in": "vendor"
+        }
+    ]
+}
+
