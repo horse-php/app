@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/horse-php/horse.git",
-                "reference": "ec70d1b02276655465853fb57dffd5bd64069d2d"
+                "reference": "6ab6fd20a9c85334f35b08136e861183a0e42e47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/horse-php/horse/zipball/ec70d1b02276655465853fb57dffd5bd64069d2d",
-                "reference": "ec70d1b02276655465853fb57dffd5bd64069d2d",
+                "url": "https://api.github.com/repos/horse-php/horse/zipball/6ab6fd20a9c85334f35b08136e861183a0e42e47",
+                "reference": "6ab6fd20a9c85334f35b08136e861183a0e42e47",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "symfony",
                 "wrapper"
             ],
-            "time": "2014-05-01 12:19:18"
+            "time": "2014-05-01 15:39:05"
         },
         {
             "name": "ilya/block",

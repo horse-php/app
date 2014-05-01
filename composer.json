@@ -7,9 +7,9 @@
         "horse/horse": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "commands/"
-        ] 
+        "psr-4": {
+            "Commands\\": "commands/"
+        }
     }
 }
 

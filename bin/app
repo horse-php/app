@@ -9,4 +9,12 @@ date_default_timezone_set('UTC');
 
 $config = require __DIR__.'/../config/app.php';
 
+$app = new Horse\Application($config['name'], $config['version']);
+
+foreach ($config['commands'] as $command)
+{
+    $app->addCommand(new $command);
+}
+
+exit ($app->run());
 
