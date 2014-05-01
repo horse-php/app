@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6902c170a865284582386e7b5b413bd4",
+    "hash": "c021c9036ae462ebad9bd19f26e452aa",
     "packages": [
         {
             "name": "horse/horse",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/horse-php/horse.git",
-                "reference": "6ab6fd20a9c85334f35b08136e861183a0e42e47"
+                "reference": "cc4310eeda5ad9d48733f6c868fd4ac03234d7dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/horse-php/horse/zipball/6ab6fd20a9c85334f35b08136e861183a0e42e47",
-                "reference": "6ab6fd20a9c85334f35b08136e861183a0e42e47",
+                "url": "https://api.github.com/repos/horse-php/horse/zipball/cc4310eeda5ad9d48733f6c868fd4ac03234d7dc",
+                "reference": "cc4310eeda5ad9d48733f6c868fd4ac03234d7dc",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "symfony",
                 "wrapper"
             ],
-            "time": "2014-05-01 15:39:05"
+            "time": "2014-05-01 16:00:06"
         },
         {
             "name": "ilya/block",
