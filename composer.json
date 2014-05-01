@@ -1,0 +1,15 @@
+{
+    "name": "horse/app",
+    "description": "Some boilerplate for your Horse application",
+    "license": "MIT",
+    "keywords": ["horse"],
+    "require": {
+        "horse/horse": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "commands/"
+        ] 
+    }
+}
+
