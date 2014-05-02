@@ -3,11 +3,11 @@
 use Horse\Command, Horse\Input, Horse\Output;
 
 /**
- * @name dummy-command
- * @desc Very dummy command
- * @sign {name:required:"Your name"}
+ * @name greet
+ * @desc Greet a person
+ * @sign {name:required:"Name of the person"}
  */
-class DummyCommand extends Command {
+class GreetCommand extends Command {
 
     /**
      * Run the command.
@@ -18,7 +18,7 @@ class DummyCommand extends Command {
      */
     public function go(Input $input, Output $output)
     {
-        $output('Your name is '.$input('name'));
+        $output('Hello '.$input('name'));
     }
 
 }
